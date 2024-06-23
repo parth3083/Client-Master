@@ -41,5 +41,10 @@ namespace Client_Master
         {
 
         }
+
+        private void NSDLISIN_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

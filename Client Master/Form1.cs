@@ -32,6 +32,7 @@ namespace Client_Master
                     var entryForm = new EntryForm();
                     entryForm.ShowDialog();
                 }
+
             }
             else
             {
