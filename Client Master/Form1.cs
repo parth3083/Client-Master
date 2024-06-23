@@ -41,8 +41,8 @@ namespace Client_Master
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var updateForm = new UpdateForm();
-            updateForm.ShowDialog();
+            //var updateForm = new UpdateForm();
+          //  updateForm.ShowDialog();
         }
     }
 }
