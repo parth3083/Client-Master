@@ -498,6 +498,7 @@
             this.submit.TabIndex = 44;
             this.submit.Text = "Submit";
             this.submit.UseVisualStyleBackColor = true;
+            this.submit.Click += new System.EventHandler(this.submit_Click);
             // 
             // get_excel
             // 
