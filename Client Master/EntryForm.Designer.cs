@@ -509,6 +509,7 @@
             this.get_excel.TabIndex = 45;
             this.get_excel.Text = "Get Excel";
             this.get_excel.UseVisualStyleBackColor = true;
+            this.get_excel.Click += new System.EventHandler(this.get_excel_Click);
             // 
             // Creativity_doc_gb
             // 
