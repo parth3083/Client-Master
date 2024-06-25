@@ -42,7 +42,7 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(110, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(444, 40);
+            this.label1.Size = new System.Drawing.Size(430, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "Welcome to Client Master\r\n";
             // 
@@ -93,9 +93,9 @@
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(193, 200);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(351, 23);
+            this.label3.Size = new System.Drawing.Size(363, 23);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Wonna updtae the previos data ? ";
+            this.label3.Text = "Wonna update the previous data ? ";
             // 
             // Form1
             // 

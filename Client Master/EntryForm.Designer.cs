@@ -75,6 +75,10 @@
             this.Creativity_doc_gb = new System.Windows.Forms.GroupBox();
             this.signature_gb = new System.Windows.Forms.GroupBox();
             this.authority_gb = new System.Windows.Forms.GroupBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.company_email = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.PCS_email = new System.Windows.Forms.TextBox();
             this.Creativity_doc_gb.SuspendLayout();
             this.signature_gb.SuspendLayout();
             this.authority_gb.SuspendLayout();
@@ -541,11 +545,51 @@
             this.authority_gb.TabIndex = 48;
             this.authority_gb.TabStop = false;
             // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(987, 98);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(167, 23);
+            this.label22.TabIndex = 49;
+            this.label22.Text = "Company Email";
+            // 
+            // company_email
+            // 
+            this.company_email.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.company_email.Location = new System.Drawing.Point(1174, 95);
+            this.company_email.Name = "company_email";
+            this.company_email.Size = new System.Drawing.Size(342, 32);
+            this.company_email.TabIndex = 50;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(498, 238);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(106, 23);
+            this.label23.TabIndex = 51;
+            this.label23.Text = "PCS Email";
+            // 
+            // PCS_email
+            // 
+            this.PCS_email.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PCS_email.Location = new System.Drawing.Point(610, 232);
+            this.PCS_email.Name = "PCS_email";
+            this.PCS_email.Size = new System.Drawing.Size(342, 32);
+            this.PCS_email.TabIndex = 52;
+            // 
             // EntryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1490, 1049);
+            this.ClientSize = new System.Drawing.Size(1654, 1049);
+            this.Controls.Add(this.PCS_email);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.company_email);
+            this.Controls.Add(this.label22);
             this.Controls.Add(this.authority_gb);
             this.Controls.Add(this.signature_gb);
             this.Controls.Add(this.Creativity_doc_gb);
@@ -651,5 +695,9 @@
         private System.Windows.Forms.GroupBox Creativity_doc_gb;
         private System.Windows.Forms.GroupBox signature_gb;
         private System.Windows.Forms.GroupBox authority_gb;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TextBox company_email;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.TextBox PCS_email;
     }
 }
